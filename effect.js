@@ -185,7 +185,7 @@ function loopEleven() {
 		$('#b8').attr('id','b88');
 		$('#b9').attr('id','b99');
 		$('#b10').attr('id','b1010');
-		$('#b12').attr('id','b1111');
+		$('#b12').attr('id','b1212');
 		$('#b11').animate({top:240, left: vw-500},500);
 $('#b22').animate({top:240, left: vw-400},500);
 $('#b33').animate({top:240, left: vw-300},500);
