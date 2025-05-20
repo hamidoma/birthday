@@ -132,8 +132,8 @@ function loopEleven() {
 
 	$('#balloons_flying').click(function(){
 		$('.balloon-border').animate({top:-500},8000);
-		$('#b1,#b4,#b5,#b7').addClass('balloons-rotate-behaviour-one');
-		$('#b2,#b3,#b6').addClass('balloons-rotate-behaviour-two');
+		$('#b1,#b4,#b5,#b7,#b8,#b11').addClass('balloons-rotate-behaviour-one');
+		$('#b2,#b3,#b6,#b9,#b10').addClass('balloons-rotate-behaviour-two');
 		// $('#b3').addClass('balloons-rotate-behaviour-two');
 		// $('#b4').addClass('balloons-rotate-behaviour-one');
 		// $('#b5').addClass('balloons-rotate-behaviour-one');
@@ -199,7 +199,7 @@ $('#b1010').animate({top:240, left: vw+400},500);
 $('#b1111').animate({top:240, left: vw+500},500);
 		$('.balloons').css('opacity','0.9');
 		$('.balloons h2').fadeIn(3000);
-		$(this).fadeOut('slow').delay(3000).promise().done(function(){
+		$(this).fadeOut('slow').delay(4000).promise().done(function(){
 			$('#story').fadeIn('slow');
 		});
 	});
