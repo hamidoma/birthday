@@ -1123,8 +1123,8 @@ audio {
 #b10,#b1010 {
 	background-image: url('b7.png');
 }
-#b11,#b1111 {
-	background-image: url('b1.png');
+#b12,#b1212 {
+	background-image: url('b6.png');
 }
 .balloons-rotate-behaviour-one {
 	-webkit-animation: balloons_rotate_one linear 10s infinite;
