@@ -125,14 +125,14 @@ function loopTen() {
 function loopEleven() {
 	var randleft = 1000 * Math.random();
 	var randtop = 500 * Math.random();
-	$('#b11').animate({ left: randleft, bottom: randtop }, 10000, function () {
+	$('#b12').animate({ left: randleft, bottom: randtop }, 10000, function () {
 		loopEleven();
 	});
 }
 
 	$('#balloons_flying').click(function(){
 		$('.balloon-border').animate({top:-500},8000);
-		$('#b1,#b4,#b5,#b7,#b8,#b11').addClass('balloons-rotate-behaviour-one');
+		$('#b1,#b4,#b5,#b7,#b8,#b12').addClass('balloons-rotate-behaviour-one');
 		$('#b2,#b3,#b6,#b9,#b10').addClass('balloons-rotate-behaviour-two');
 		// $('#b3').addClass('balloons-rotate-behaviour-two');
 		// $('#b4').addClass('balloons-rotate-behaviour-one');
@@ -174,7 +174,7 @@ function loopEleven() {
 	$('#wish_message').click(function(){
 		 vw = $(window).width()/2;
 
-		$('#b1,#b2,#b3,#b4,#b5,#b6,#b7,#b8,#b9,#b10,#b11').stop();
+		$('#b1,#b2,#b3,#b4,#b5,#b6,#b7,#b8,#b9,#b10,#b12').stop();
 		$('#b1').attr('id','b11');
 		$('#b2').attr('id','b22')
 		$('#b3').attr('id','b33')
@@ -185,7 +185,7 @@ function loopEleven() {
 		$('#b8').attr('id','b88');
 		$('#b9').attr('id','b99');
 		$('#b10').attr('id','b1010');
-		$('#b11').attr('id','b1111');
+		$('#b12').attr('id','b1111');
 		$('#b11').animate({top:240, left: vw-500},500);
 $('#b22').animate({top:240, left: vw-400},500);
 $('#b33').animate({top:240, left: vw-300},500);
@@ -196,7 +196,7 @@ $('#b77').animate({top:240, left: vw+100},500);
 $('#b88').animate({top:240, left: vw+200},500);
 $('#b99').animate({top:240, left: vw+300},500);
 $('#b1010').animate({top:240, left: vw+400},500);
-$('#b1111').animate({top:240, left: vw+500},500);
+$('#b1212').animate({top:240, left: vw+500},500);
 		$('.balloons').css('opacity','0.9');
 		$('.balloons h2').fadeIn(3000);
 		$(this).fadeOut('slow').delay(4000).promise().done(function(){
